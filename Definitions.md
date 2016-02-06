@@ -35,26 +35,30 @@ Binary operation `•` where `a • (b • c) = (a •b) • c`
 Binary operations `•` and `+` where `a • (b + c) = a•b + a•c`
 
 ## Preorder
-Binary relation that is transitive and reflexive.  Can be drawn as a directed graph.
+Binary relation that is [transitive](#transitive) and [reflexive](#reflexive).  Can be drawn as a
+directed graph.
 
 Example: reachability between locations.
 
 ## Partial Order
-Binary relation that is transitive, reflexive and anti-symmetric (preorder + anti-symmetry).  Can be
+Binary relation that is [transitive](#transitive), [reflexive](#reflexive) and
+[anti-symmetric](#anti-reflexive) ([preorder](#preorder) + [anti-symmetry](#anti-symmetry)).  Can be
 drawn as a directed acyclic graph.
 
 Example: ancestry between individuals, commits.
 
 ## Total Order
-Binary relation that is transitive, reflexive, anti-symmetric and total (partial order + totality).
-Can be drawn as a directed acyclic graph with an edge between every two nodes.
+Binary relation that is [transitive](#transitive), [reflexive](#reflexive),
+[anti-symmetric](anti-symmetric) and [total](#total) ([partial order](#partial-order) +
+[totality](#total)).  Can be drawn as a directed acyclic graph with an edge between every two nodes.
 
 Example: <= on the set of real numbers.
 
 ## Partially ordered set (poset)
-A set with a partial order.
+A set with a [partial order](#partial-order).
 
 ## Monoid
-Set with a associative binary operation `•` and a unit element `0` for which `a • 0 = 0 • a = a`
+Set with an [associative](#associative) binary operation `•` and a unit element `0` for which
+`a • 0 = 0 • a = a`
 
 Example: addition, string concatenation
