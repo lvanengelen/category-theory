@@ -10,6 +10,9 @@ The category of all sets where each include *bottom*, the return value of a no -
 ## Void
 Type corresponding with the empty set.
 
+## absurd
+The functions with `Void` as their input type.
+
 ## Unit
 Type corresponding with the singleton set, containing only ().
 
