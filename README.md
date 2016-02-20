@@ -5,5 +5,5 @@ Some dabblings into category theory.  Initially following the book from
 
 - [Monoid](Monoid.md)
 - [Kleisli Category](Kleisli Category.md)
-- [Products and Coproducts](Products and Coproduvts.md)
+- [Products and Coproducts](Products and Coproducts.md)
 - [Definitions](Definitions.md)
