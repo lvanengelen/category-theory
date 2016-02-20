@@ -13,7 +13,8 @@ In `Set`, `Void` is the initial object and `Unit` the terminal object.  In this 
 uniqueness of the morphism is important, because there are lots of morphisms from all objects to a
 single one (e.g. two from any object to `Bool`).
 
-A terminal object in `C` is the initial object in its opposite category.
+A terminal object in `C` is the initial object in its
+[opposite category](Definitions.md#opposite-category-cop).
 
 ## Product
 

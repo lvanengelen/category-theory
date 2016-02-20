@@ -74,7 +74,8 @@ Example: initial and terminal objects.
 ## Initial Object
 Object with one and only one morphism going to any object.
 
-Does not have to exist, but if it exits it is unique up to isomorphism.
+Does not have to exist, but if it exits it is unique up to
+[unique isomorphism](uniqueness-up-to-unique-isomorphism).
 
 Example: least element of a poset, `Void` in `Set`, set of all integers does not have an initial
 object, `Unit` is not an initial object in `Set`.
@@ -82,7 +83,8 @@ object, `Unit` is not an initial object in `Set`.
 ## Terminal Object
 Object with one and only one morphism coming from any object.
 
-Does not have to exist, but if it exists it is unique up to isomorphism.
+Does not have to exist, but if it exists it is unique up to
+[unique isomorphism](uniqueness-up-to-unique-isomorphism).
 
 Example: biggest element in a poset, `Unit` in `Set`.
 
@@ -91,10 +93,11 @@ An invertible morphism; a pair of morphisms which are each other's inverses:
 `f • g = g • f = id`.
 
 ## Uniqueness up to isomorphism
-Uniqueness where unique objects have isomorphisms between each pair of them.
+Uniqueness where unique objects have [isomorphisms](#isomorphism) between each pair of them.
 
-## Uniqueness up to isomorphism
-Uniqueness up to isomorphism where there is only a single isomorphism between each pair of them.
+## Uniqueness up to unique isomorphism
+Uniqueness up to isomorphism where there is only a single [isomorphism](#isomorphism) between each
+pair of them.
 
 ## Opposite category (C^op)
 Category derived from `C` with all morphisms reversed.
@@ -110,4 +113,5 @@ Function that does not map more than one input to the same output, e.g. it is no
 Example: f: R -> R f(x) = x, not g: R -> R f(x) = x^2
 
 ## Bijective
-Function that is both surjective and injective and therefore symmetric and invertible.
+Function that is both [surjective](#surjective-onto) and [injective](#injective-one-to-one) and
+therefore symmetric and invertible.
