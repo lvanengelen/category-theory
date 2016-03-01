@@ -115,3 +115,13 @@ Example: f: R -> R f(x) = x, not g: R -> R f(x) = x^2
 ## Bijective
 Function that is both [surjective](#surjective-onto) and [injective](#injective-one-to-one) and
 therefore symmetric and invertible.
+
+## Functor
+A mapping between categories maintaining structure, with laws for functor `F`:
+
+- if `h = g • f` then `F h = F g • F f`
+- for all identity morphisms `id_a` in a: `F id_a = id_(F a)`
+
+## Constant Functor (`Delta_c`)
+Functor that maps every object in the source category to a *selected* object `c` in the target
+category and every morphism to `id_c`.
